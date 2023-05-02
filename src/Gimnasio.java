@@ -1,6 +1,9 @@
 import java.util.DoubleSummaryStatistics;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
+
+import static java.util.stream.Collectors.*;
 
 public class Gimnasio {
     private String nombre;
@@ -76,6 +79,9 @@ public class Gimnasio {
         return null;
     }
 
+    /**
+     *Devuelve las estadisticas del peso de los clientes
+     */
     public DoubleSummaryStatistics getEstadisticasClientes(){
         //Todo: 10
         return null;
@@ -106,9 +112,12 @@ public class Gimnasio {
         return null;
     }
 
+    /**
+     *Devuelve las estadisticas del peso de los clientes por Cuota
+     */
     public Map<Cuota, DoubleSummaryStatistics> getEstadisticasPorCuota(){
         //Todo: 14
-        return null;
+         return null;
     }
 
     public Map<Cuota, Double> getPromedioBancaPorCuota(){

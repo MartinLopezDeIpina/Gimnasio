@@ -8,6 +8,10 @@ public enum Cuota {
         this.precio = precio;
     }
 
+    public double getPrecio(){
+        return precio;
+    }
+
 
 
 
